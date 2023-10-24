@@ -4,7 +4,7 @@
 
 Welcome to the Jetpack Compose UI project! This project showcases the power of Jetpack Compose for building modern Android user interfaces with a touch of animation. 
 
-![App Screenshot](https://cdn.dribbble.com/users/3018311/screenshots/15822493/media/e558f3fb1c94bc7db416da0e4721e414.jpg?resize=1200x900&vertical=center)
+![App Screenshot](https://cdn.dribbble.com/users/3018311/screenshots/15822493/media/e558f3fb1c94bc7db416da0e4721e414.jpg)
 
 ## Features
 
