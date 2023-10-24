@@ -4,7 +4,7 @@
 
 Welcome to the Jetpack Compose UI project! This project showcases the power of Jetpack Compose for building modern Android user interfaces with a touch of animation. 
 
-![App Screenshot](https://dribbble.com/shots/15822493-Meditation-Mobile-App/attachments/7638426?mode=media)
+![App Screenshot]([https://dribbble.com/shots/15822493-Meditation-Mobile-App/attachments/7638426?mode=media](https://dribbble.com/shots/15822493-Meditation-Mobile-App/attachments/7638426?mode=media)
 
 ## Features
 
