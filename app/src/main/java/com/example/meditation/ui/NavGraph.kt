@@ -7,6 +7,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
 import com.example.meditation.Screen
+import com.example.meditation.utils.Constant.INDEX_KEY
 
 @Composable
 fun SetupNavGraph(navController: NavHostController) {
@@ -17,9 +18,9 @@ fun SetupNavGraph(navController: NavHostController) {
             HomeScreen(navController = navController)
         }
         composable(
-            route = Screen.Detail.route + "/{index}",
+            route = Screen.Detail.route + "/{$INDEX_KEY}",
             arguments = listOf(
-                navArgument("index") {
+                navArgument(INDEX_KEY) {
                     type = NavType.IntType
                     defaultValue = 0
                 }
@@ -27,7 +28,7 @@ fun SetupNavGraph(navController: NavHostController) {
 
         ) { entry ->
 
-            DetailScreen(navController = navController, id = entry.arguments?.getInt("index"))
+            DetailScreen(navController = navController, id = entry.arguments?.getInt(INDEX_KEY))
 
         }
     }
